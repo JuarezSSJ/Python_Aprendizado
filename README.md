@@ -1,2 +1,2 @@
 # Python_Aprendizado
- Atividades do curso de Python iniciante
+ Atividades do curso de Python
