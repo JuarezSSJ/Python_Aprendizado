@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2490c91e-6692-422d-aaf5-1f22e9c65639" name="Changes" comment="Mudança do README.md">
-      <change afterPath="$PROJECT_DIR$/String/ex01_String.py" afterDir="false" />
+    <list default="true" id="2490c91e-6692-422d-aaf5-1f22e9c65639" name="Changes" comment="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício">
+      <change afterPath="$PROJECT_DIR$/String/ex02_String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Família/Documents/GitHub/Python_Aprendizado&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Família/Documents/GitHub/Python_Aprendizado",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,13 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671644707504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício">
+      <created>1671650531460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671650531460</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atividade para treinar if e else" />
     <MESSAGE value="Com essa atividade, percebi a importância de se trabalhar com função, consegui resolver 2 exercícios sem modificar linhas de cod e já aplicando para os 3 exemplos" />
     <MESSAGE value="Mudança do README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mudança do README.md" />
+    <MESSAGE value="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício" />
   </component>
 </project>
