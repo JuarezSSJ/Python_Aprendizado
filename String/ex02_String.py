@@ -9,7 +9,9 @@ emails = ["juarez@gmail.com",
           "fogo@furia.com",
           "gol@hotmail.com"]
 
+servidor_email = []
 #email = str(input("Digite seu e-mail: "))
+
 def servidores (email_cliente):
     a=0
     email=""
@@ -29,4 +31,16 @@ Segunda forma utilizando um método
 
 for seg in emails:
     a=seg.find("@")+1
-    print(seg[a:])
+    #print(seg[a:])
+    servidor_email.append(seg[a:])
+
+#list(set(lista)) - serve para remover valores duplicados
+
+#print(list(set(servidor_email)))
+
+for serv in list(set(servidor_email)):
+    servidor_1 = 0
+    for base in servidor_email:
+        if serv in base:
+            servidor_1+=1
+    print("Servidor {} repetiu {} vezes na lista\n".format(serv, servidor_1))
