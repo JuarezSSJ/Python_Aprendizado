@@ -23,3 +23,4 @@ for valor in vendas_ano:
 print("\nO mês de {} foi o de melhor faturamento R${:.2f} do ano e representou {:.2f}% do fat.".format(meses[melhor_mes],vendas_ano[melhor_mes],lista_porcent_ano[melhor_mes]))
 
 print("\nO mês de {} foi o pior faturamento R${:.2f} do ano e representou {:.2f}% do fat.".format(meses[pior_mes],vendas_ano[pior_mes], lista_porcent_ano[pior_mes]))
+
