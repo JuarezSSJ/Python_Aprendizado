@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2490c91e-6692-422d-aaf5-1f22e9c65639" name="Changes" comment="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício">
-      <change afterPath="$PROJECT_DIR$/String/ex02_String.py" afterDir="false" />
+    <list default="true" id="2490c91e-6692-422d-aaf5-1f22e9c65639" name="Changes" comment="Estudando String, e aplicando para um caso possível">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/ex01_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/ex01_String.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671650531460</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Estudando String, e aplicando para um caso possível">
+      <created>1671681077206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671681077206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -77,6 +84,7 @@
     <MESSAGE value="Com essa atividade, percebi a importância de se trabalhar com função, consegui resolver 2 exercícios sem modificar linhas de cod e já aplicando para os 3 exemplos" />
     <MESSAGE value="Mudança do README.md" />
     <MESSAGE value="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudando String, utilizei de variáveis Bool, função e também de laços de repetição para resolver o exercício" />
+    <MESSAGE value="Estudando String, e aplicando para um caso possível" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudando String, e aplicando para um caso possível" />
   </component>
 </project>

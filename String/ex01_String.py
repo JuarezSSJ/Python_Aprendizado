@@ -9,7 +9,7 @@ Caso o usuário digite algo diferente de números ou digite menos de 11 caracter
 cpf = str(input("Insira seu CPF (digite apenas números): "))
 def verificar (cpf):
     for ver in cpf:
-        if(ver == "." or len(cpf) != 11):
+        if(ver == "." or len(cpf) != 11 or cpf.isnumeric() == False):
             print("Digite seu CPF corretamente e digite apenas números")
             return False
             break
@@ -18,4 +18,3 @@ def verificar (cpf):
             return True
 while (verificar(cpf) == False):
     cpf = str(input("Insira seu CPF (digite apenas números): "))
-    
