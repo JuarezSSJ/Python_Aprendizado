@@ -13,7 +13,7 @@ mensagem.pack()  # metodo pack coloca a mensagem dentro da janela do tkinter dis
 
 #depois de colocar qualquer mensagem ou item dentro da tela, ela se ajusta para o tamanho
 
-mensagem2 = tk.Label(text="Criando minha primeira tela!!!", background="black", fg="white", width="50", height="50")
+mensagem2 = tk.Label(text="Criando minha primeira tela!!!", background="black", fg="white", width="100", height="30")
 #pode ser usado bg = background e fg foreground
 
 mensagem2.pack()
