@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2490c91e-6692-422d-aaf5-1f22e9c65639" name="Changes" comment="String">
-      <change afterPath="$PROJECT_DIR$/Listas/ex02_Listas.py" afterDir="false" />
+    <list default="true" id="2490c91e-6692-422d-aaf5-1f22e9c65639" name="Changes" comment="Trabalhando com Listas e aplicando para casos micros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listas/ex01_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Listas/ex01_Listas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listas/ex02_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Listas/ex02_Listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671736544552</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Trabalhando com Listas e aplicando para casos micros">
+      <created>1671744705967</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671744705967</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Trabalhando com Listas e aplicando para casos micros">
+      <created>1671744738168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671744738168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +137,7 @@
     <MESSAGE value="Estudando String, conheci a função isnumeric e percebi que trataria uma falha no codigo, que era quando fosse digitado 11 letras era aceito, com essa função resolvo esse problema , pois ela retorna True ou False para caso seja ou não digitado algum outro caracter alem de numeros" />
     <MESSAGE value="Estudando String, realizando mais um exercício para tratamento" />
     <MESSAGE value="String" />
-    <option name="LAST_COMMIT_MESSAGE" value="String" />
+    <MESSAGE value="Trabalhando com Listas e aplicando para casos micros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabalhando com Listas e aplicando para casos micros" />
   </component>
 </project>
