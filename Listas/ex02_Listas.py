@@ -26,5 +26,9 @@ print("\nO mês de {} foi o pior faturamento R${:.2f} do ano e representou {:.2f
 
 print("\n\n\tTOP 3º\n\n")
 
-top1 = vendas_ano.pop()
-
+#para realizar de uma forma automatica o TOP 3°
+for x in range(3):    
+    melhor_mes = vendas_ano.index(max(vendas_ano))
+    top1_mes = meses.pop(melhor_mes)
+    top1_valor = vendas_ano.pop(melhor_mes)
+    print("1° {} - R${:.2f}\n".format(top1_mes, top1_valor))
