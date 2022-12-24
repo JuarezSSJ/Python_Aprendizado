@@ -28,6 +28,26 @@ mensagem2.grid(row=1, column=0)
 nome = tk.Entry() #aparece um label que permite digitar
 nome.grid(row=1, column=1)
 
+dicionario_cotacoes = {
+    "Dólar": 5.50,
+    "Euro": 6.70,
+    "Bitcoin": 20000,
+}
+
+def mudarNome():
+    #funçaõ no Tkinter tem acesso a tudo externo
+    moeda_preenchida = nome.get()
+    cotacao_moeda = dicionario_cotacoes.get(moeda_preenchida)
+    # apos o click será criado um label para apresentar a mensagem para o usuario
+    mensagem_cotacao = tk.Label(text="Cotação não encontrata")
+    mensagem_cotacao.grid(row=3, column=0)
+    if cotacao_moeda:
+        mensagem_cotacao["text"] = f"Cotação do {moeda_preenchida} é de {cotacao_moeda} reais"
+    
+
+botao = tk.Button(text="Mudar nome", command= mudarNome)
+botao.grid(row=2, column=1)
+
 janela.mainloop()  # mainloop = loop infinito para deixar a tela visivel
 
 nome.get()#pegar o que foi digitado
