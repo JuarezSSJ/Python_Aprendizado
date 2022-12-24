@@ -3,7 +3,10 @@ import tkinter as tk
 janela = tk.Tk()
 
 janela.title("Primeira tela")  # editar titulo
-
+                # o 0 seria a linha que estou configurando
+janela.rowconfigure(0, weight=1 )#weight = 1 vai  ficar com altura automatica
+                # o [0,1] quando por ou mais de uma linha ou mais do que uma coluna deve passar como lista
+janela.columnconfigure([0,1], weight=1)
 # para criar qualquer coisa no Tkinter primeiro temos que criar objeto, depois colocar o objeto dentro da janela
 
 # mudar a cor da letra é foregroud e mudar a cor do label backgroud
