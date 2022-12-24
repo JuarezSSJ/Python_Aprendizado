@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 
 janela = tk.Tk()
 
@@ -25,8 +26,8 @@ mensagem2 = tk.Label(text="Criando minha primeira tela!!!", background="black", 
 
 mensagem2.grid(row=1, column=0)
 
-nome = tk.Entry() #aparece um label que permite digitar
-nome.grid(row=1, column=1)
+# nome = tk.Entry() #aparece um label que permite digitar
+# nome.grid(row=1, column=1)
 
 dicionario_cotacoes = {
     "Dólar": 5.50,
@@ -34,9 +35,16 @@ dicionario_cotacoes = {
     "Bitcoin": 20000,
 }
 
+#pegar as chaves do dicionario e transformando em uma lista
+moeda = list(dicionario_cotacoes.keys())
+#criar uma lista para evitar que o usuario erre na digitação
+moeda = ttk.Combobox(janela, values = moeda)
+# Combobox (onde vai aparecer a lista, no caso na janela - Values o que terá na lista)
+moeda.grid(row=1, column=1)
+
 def mudarNome():
     #funçaõ no Tkinter tem acesso a tudo externo
-    moeda_preenchida = nome.get()
+    moeda_preenchida = moeda.get()
     cotacao_moeda = dicionario_cotacoes.get(moeda_preenchida)
     # apos o click será criado um label para apresentar a mensagem para o usuario
     mensagem_cotacao = tk.Label(text="Cotação não encontrata")
