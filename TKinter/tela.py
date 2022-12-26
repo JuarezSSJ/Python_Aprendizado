@@ -59,3 +59,5 @@ botao.grid(row=2, column=1)
 janela.mainloop()  # mainloop = loop infinito para deixar a tela visivel
 
 nome.get()#pegar o que foi digitado
+
+aula8
