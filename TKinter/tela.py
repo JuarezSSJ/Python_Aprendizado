@@ -65,5 +65,30 @@ def mudarNome():
 botao = tk.Button(text="Mudar nome", command=mudarNome)
 botao.grid(row=2, column=1)
 
+caixa_texto = tk.Text(width=10, height=5)
+caixa_texto.grid(row=5, column=0, sticky="nswe")
+
+
+def buscarCotacoes():
+    # criação da função para o botão:
+    # quebrar o texto digitado na caixa de texto
+    texto = caixa_texto.get("1.0", tk.END)
+    # caixa_texto.get("1.0", tk.END) = 1 é a linha e o 0 é o primeiro caracter, tk.END é para pegar todo o texto digitado na caixa
+    lista_moedas = texto.split("\n")
+    # quebrar o texto em cada enter
+    mensagem_lista = []
+    # criação de uma lista vazia, com o obj. de colocar todas as cotações e depois criar somente um label
+    for item in lista_moedas:
+        cotacao = dicionario_cotacoes.get(item)
+        if cotacao:
+            mensagem_lista.append(f"{item}: {cotacao}")
+            # append cadastra um item na lista
+    mensagem4 = tk.Label(text="\n".join(mensagem_lista))
+    mensagem4.grid(row=6, column=0)
+
+
+botao_multi = tk.Button(text="Mudar nome", command=buscarCotacoes)
+botao_multi.grid(row=5, column=1)
+
 
 janela.mainloop()  # mainloop = loop infinito para deixar a tela visivel
