@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 janela = tk.Tk()
 
 janela.title("Criando Option Button")
@@ -17,14 +18,15 @@ mensagem.grid(row=0, column=0, columnspan=3)
 # para resolver isso temos que passar um valor para a variavel (value="Nada"), resolve isso
 var_moeda = tk.StringVar(value="Nada")
 
+mensagem_cotacao = tk.Label(text="")
+mensagem_cotacao.grid(row=3, column=0, columnspan=3)
+
 
 def enviar():
     # print(var_moeda.get())
     moeda_preenchida = var_moeda.get()
     cotacao_moeda = dicionario_cotacoes.get(moeda_preenchida)
     # apos o click será criado um label para apresentar a mensagem para o usuario
-    mensagem_cotacao = tk.Label(text="")
-    mensagem_cotacao.grid(row=3, column=0, columnspan=3)
     if cotacao_moeda:
         mensagem_cotacao["text"] = f"Cotação do {moeda_preenchida} é de {cotacao_moeda} reais"
 
@@ -39,8 +41,5 @@ botao_euro.grid(row=1, column=0)
 botao_dolar.grid(row=1, column=1)
 botao_bitcoin.grid(row=1, column=2)
 
-
-# botao_enviar = tk.Button(text="Enviar", command=enviar)
-# botao_enviar.grid(row=1, column=0)
 
 janela.mainloop()
